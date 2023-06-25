@@ -1,0 +1,32 @@
+.footer{
+    padding: 4rem 6rem;
+    background-color: black;
+    color: #fff;
+}
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    flex-wrap: wrap;
+}
+.top i{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.bottom{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom h4{
+    font-size: 1.5rem;
+    padding: 1rem 0 0.8rem 0;
+}
+.bottom p{
+    font-size: 1.2rem;
+    font-weight:300;
+    line-height: 1.8rem;
+}

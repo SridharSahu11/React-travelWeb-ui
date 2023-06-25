@@ -1,0 +1,77 @@
+.home{
+    width: 100%;
+    /* height: 100vh; */
+}
+.about{
+    width: 100%;
+    height: 70vh;
+    /* position: relative; */
+}
+.contact{
+    width: 100%;
+    height: 70vh;
+}
+.services .hero-text h1{
+    color: rgb(0, 0, 0);
+    position: relative;
+   margin-bottom:30%;
+}
+.services .hero-text img{
+    height: 100vh;
+}
+
+.services{
+    width: 100%;
+    height: 70vh; 
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    /* width:100%; */
+}
+/* style for about page */
+.hero-text h1{
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+}
+.hero-text p{
+    font-size: 1.5rem;
+    word-spacing: 1rem;
+    padding: 0.5rem 0 2rem 2rem;
+    color: #fff;
+}
+.hero-text .btn-class{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    position: absolute;
+    left: 20%;
+}
+
+@media screen and (max-width: 555px) {
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+    .hero-text .btn-class{
+        text-decoration: none;
+        background-color: #75bfec;
+        padding: 1rem 2rem;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+}
